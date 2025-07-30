@@ -1,1 +1,98 @@
+.navbar-container {
+    display: flex; /* Makes this div a flex container */
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center; /* Vertically centers the logo and links */
+    background-color: #00A86B;
+    color: white;
+    padding: 10px 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Space between the links */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-size: 30px
+}
+.Header-box{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    text-align: center;
+    display: flex; /* Makes this div a flex container */
+    justify-content: space-between; /* Pushes text to left, video to right */
+    font-size: 20px;
+}
+
+.logo{
+    display: flex; /* Makes this a flex container */
+    justify content: left; /* pushes logo to the left */
+}
+
+.h3{
+text-font:Verdana   ;
+}
+
+.pests{
+    text-align: center;
+    font-size: 50px;
+}
+
+.top{
+    text-align: center;
+    color: #00A86B;
+        font-size: 60px;
+    }
+
+    .problem{
+     text-align: center;
+    }
+
+
+
+.2header-box{
+    background-color: white; /* Gives the box a light blue background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #336699; /* Puts a blue border around the box */
+    margin:center;
+    text-align:center;
+}
+
+form{
+    background:#fff;
+    width:600px;
+    height:55px;
+    display:flex;
+}
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+}
+form button {
+    background:#fffff;
+    padding:10px 50px;
+    border:none;
+    outline:none;
+    color:#00000;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+form .fa-search{
+    align-self:center;
+    padding:10px 20px;
+    color:navy;
+
+}
+.nav-links a:hover {
+    background-color: #2E8B57;
+    border-radius: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
 
