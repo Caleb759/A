@@ -14,7 +14,7 @@
     transition: background-color 0.3s ease; /* Smooth hover effect */
     font-size: 30px
 }
-.Header-box{
+.Header-box {
     background-color: white; /* Gives the box a white background */
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
@@ -26,48 +26,39 @@
     font-size: 20px;
 }
 
-.logo{
+.logo {
     display: flex; /* Makes this a flex container */
     justify content: left; /* pushes logo to the left */
 }
 
-.h3{
-text-font:Verdana   ;
+.paragraph {
+    font-size: 30px;
+    font-family: ;
 }
 
-.pests{
+.pests {
     text-align: center;
     font-size: 50px;
 }
 
-.top{
+.top {
     text-align: center;
     color: #00A86B;
         font-size: 60px;
     }
 
-    .problem{
+    .problem {
      text-align: center;
     }
 
-
-
-.2header-box{
-    background-color: white; /* Gives the box a light blue background */
-    padding: 20px; /* Adds space inside the box */
-    margin: 15px; /* Adds space outside the box, pushing it away from other things */
-    border: 3px solid #336699; /* Puts a blue border around the box */
-    margin:center;
-    text-align:center;
-}
-
-form{
+form {
     background:#fff;
     width:600px;
     height:55px;
     display:flex;
 }
-form input{
+
+form input {
     flex:1;
     border:none;
     outline:none;
@@ -81,7 +72,7 @@ form button {
     letter-spacing:1px;
     cursor:pointer;
 }
-form .fa-search{
+form .fa-search {
     align-self:center;
     padding:10px 20px;
     color:navy;
@@ -91,8 +82,71 @@ form .fa-search{
     background-color: #2E8B57;
     border-radius: 10px;
 }
-* {
-  box-sizing: border-box;
+
+.slider-container {
+  position: center;
+  display: flex;/* Makes this a flex container */
+  justify content: space evenly;/* spaces slider and list */
+}
+.slider {
+  width: 1100px;
+  height: 750px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  display: flex;
+}
+.slide {
+  scroll-snap-align: start;
+  margin-right: 1rem;
+}
+
+.NZ {
+    text-align: center;
+    font-size: 100px;
+}
+
+.common {
+    font-size: 50px;
+}
+
+.list {
+    font-size: 40px;
+}
+
+.container{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
+}
+
+.Body-box{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 40px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* spaces slider and list */
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-color: #00A86B;
+}
+
+.td{
+    text-font:Verdana
+}
+
+.footer{
+    display: block;
+    background-color: #00A86B;
+    text-align: center;
 }
 
 
