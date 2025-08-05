@@ -87,6 +87,12 @@ form .fa-search {
   position: center;
   display: flex;/* Makes this a flex container */
   justify content: space evenly;/* spaces slider and list */
+  background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
 }
 .slider {
   width: 1100px;
@@ -113,8 +119,49 @@ form .fa-search {
 .list {
     font-size: 40px;
 }
+.MICE{
 
-.container{
+}
+
+.mice{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* image and text */
+}
+
+.opposums{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
+}
+
+.rabbits{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
+}
+
+.stoats{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 30px;
+}
+
+.weasels{
     background-color: white; /* Gives the box a white background */
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
@@ -143,10 +190,70 @@ table, th, td {
     text-font:Verdana
 }
 
-.footer{
-    display: block;
-    background-color: #00A86B;
-    text-align: center;
+footer{
+    background-color:#00A86B;
+}
+.footercontainer{
+    width:100%;
+    padding: 70px 30px 20px;
+
 }
 
+.footernav{
+    margin:30px 0;
+}
+.footernav ul{
+    display:flex;
+    justify-content:center
+}
+.footernav ul li a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size:1.3em;
+    opacity:0.;
+    transition:0.5s;
+
+}
+.footernav ul li a:hover{
+    opacity:1;
+}
+.footerbottom{
+    background-color:#00A86B;
+    padding:20px;
+    text-align:center;
+}
+.footerbottom p{
+    color:white
+
+}
+.designer{
+    opacity:0.7;
+    text-transform:uppercase;
+    letter-space:1px;
+    font-weight:400;
+    margin:0px 5px;
+
+}
+@media (max-width:700px){
+    .footernav ul {
+        flex-direction:column;
+    }
+    .footernav ul li{
+        width:100%;
+        textalce
+        margin:10px;
+
+    }
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+}
 
