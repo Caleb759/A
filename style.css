@@ -120,7 +120,8 @@ form .fa-search {
     font-size: 40px;
 }
 .MICE{
-
+    text-align: center;
+    font-size: 100px;
 }
 
 .mice{
@@ -134,6 +135,11 @@ form .fa-search {
     justify content: space evenly;/* image and text */
 }
 
+.OPPOSUMS{
+    text-align: center;
+    font-size: 100px;
+}
+
 .opposums{
     background-color: white; /* Gives the box a white background */
     padding: 20px; /* Adds space inside the box */
@@ -141,6 +147,13 @@ form .fa-search {
     border: 3px solid #00A86B; /* Puts a green border around the box */
     margin:center;
     font-size: 30px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* image and text */
+}
+
+.RABBITS{
+    text-align: center;
+    font-size: 100px;
 }
 
 .rabbits{
@@ -150,6 +163,13 @@ form .fa-search {
     border: 3px solid #00A86B; /* Puts a green border around the box */
     margin:center;
     font-size: 30px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* image and text */
+}
+
+.STOATS{
+    text-align: center;
+    font-size: 100px;
 }
 
 .stoats{
@@ -159,6 +179,13 @@ form .fa-search {
     border: 3px solid #00A86B; /* Puts a green border around the box */
     margin:center;
     font-size: 30px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* image and text */
+}
+
+.WEASELS{
+    text-align: center;
+    font-size: 100px;
 }
 
 .weasels{
@@ -168,6 +195,8 @@ form .fa-search {
     border: 3px solid #00A86B; /* Puts a green border around the box */
     margin:center;
     font-size: 30px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* image and text */
 }
 
 .Body-box{
