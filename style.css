@@ -210,6 +210,35 @@ form .fa-search {
     justify content: space evenly;/* spaces slider and list */
 }
 
+.Body-box2{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 40px;
+    display: flex;/* Makes this a flex container */
+    justify content: space evenly;/* spaces image and text */
+}
+
+.Body-box3{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 40px;
+}
+
+.Body-box4{
+    background-color: white; /* Gives the box a white background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 3px solid #00A86B; /* Puts a green border around the box */
+    margin:center;
+    font-size: 40px;
+}
+
 table, th, td {
   border: 2px solid black;
   border-color: #00A86B;
@@ -286,3 +315,11 @@ footer{
     margin:center;
 }
 
+.weeding{
+    display: flex;/* Makes this a flex container */
+    justify-content: center;/* centers image */
+}
+
+.text{
+    font-size:40px;
+}
